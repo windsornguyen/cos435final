@@ -1,0 +1,9 @@
+<mujocoinclude>
+    <body childclass="basketball_base" name="basketball" pos = "0 -0.5 .9">
+        <geom material="bskt_black" mesh="basketballinner"/>
+        <geom material="bskt_orange" mesh="basketballouter"/>
+        <joint type="free"/>
+            <geom class="basketball_col" type="sphere" size=".09" mass=".3" name="objGeom"/>
+
+    </body>
+</mujocoinclude>
